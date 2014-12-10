@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Urdu';
+    src: url('fonts/urdufont.eot');
+    src: url('fonts/urdufont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/urdufont.woff') format('woff'),
+         url('fonts/urdufont.ttf') format('truetype'),
+         url('fonts/urdufont.svg#entypo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.lh-rtl-content {
+	font-family: 'Urdu', sans-serif;
+	direction: rtl;
+}
+
+.lh-rtl-content * {
+	font-family: 'Urdu', sans-serif;
+	text-align: right;
+	direction: rtl;
+	line-height: 2;
+	font-size: large;
+}
